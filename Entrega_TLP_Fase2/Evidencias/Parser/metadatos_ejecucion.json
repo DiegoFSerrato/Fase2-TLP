@@ -1,0 +1,18 @@
+{
+  "ejecucion_inicio_local": "2026-11-18T11:16:14-06:00",
+  "ejecucion_final_local": "2026-11-18T11:16:14-06:00",
+  "configuracion_horaria": "dispositivo",
+  "zona_horaria": "Zona horaria del dispositivo",
+  "python": "3.14.5",
+  "ply": "3.11",
+  "archivos_sha256": {
+    "corpus_es_fase2.csv": "7b1baa53cd63f2401c361be97c2b34709631deae87714e90c8e8691c76d9ca08",
+    "lexer_es.py": "b99bd32f73c4fdef6d790b4a266846c6ed68d4b96e0abe2fa9d9461d44b5f792",
+    "parser_es.py": "4c5317213841de369c04d0252225039f25d9a6f65754b15d033c847bed0d26ed",
+    "gramatica_es_ll1.py": "3bb92065cedb2e1bb687d731e7d26c7d692ff9eb35a08b56f585b5cc7c3f6741",
+    "tabla_es_ll1.py": "6aba8e091a22959b7d4496c19049b9c10ae2f9f102775ce08414e247ba84b80c"
+  },
+  "numero_de_oraciones": 45,
+  "tabla": "tabla_es_ll1.py (fija; solo lectura durante analisis)",
+  "observacion": "Los timestamps locales incluyen su desfase horario; cambian en cada ejecucion, pero las etiquetas y metricas se reproducen con los mismos archivos."
+}

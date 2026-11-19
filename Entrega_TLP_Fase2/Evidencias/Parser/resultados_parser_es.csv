@@ -1,0 +1,46 @@
+﻿id,nivel,oracion,esperado,obtenido,etapa_esperada,etapa_obtenida,coincide,etapa_coincide,estructura_esperada,justificacion,timestamp_local
+ES001,1,La niña lee.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,"Sujeto femenino singular, verbo singular y punto.",2026-11-18T11:16:14-06:00
+ES002,1,El niño corre.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Sujeto masculino singular y verbo singular.,2026-11-18T11:16:14-06:00
+ES003,1,Los perros corren.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto masculino plural y verbo plural.,2026-11-18T11:16:14-06:00
+ES004,1,Las profesoras trabajan.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto femenino plural y verbo plural.,2026-11-18T11:16:14-06:00
+ES005,1,Ella canta.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Pronombre singular y verbo singular.,2026-11-18T11:16:14-06:00
+ES006,1,Ellos estudian.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Pronombre plural y verbo plural.,2026-11-18T11:16:14-06:00
+ES007,1,Él escribe.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Pronombre singular acentuado y verbo singular.,2026-11-18T11:16:14-06:00
+ES008,1,Ellas caminan.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Pronombre plural y verbo plural.,2026-11-18T11:16:14-06:00
+ES009,1,Un gato duerme.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Determinante y sustantivo masculinos singulares.,2026-11-18T11:16:14-06:00
+ES010,1,Una maestra escucha.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Determinante y sustantivo femeninos singulares.,2026-11-18T11:16:14-06:00
+ES011,1,Unos alumnos saltan.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Determinante y sustantivo masculinos plurales.,2026-11-18T11:16:14-06:00
+ES012,1,Unas niñas juegan.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Determinante y sustantivo femeninos plurales.,2026-11-18T11:16:14-06:00
+ES013,1,La profesora trabaja.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Sujeto femenino singular sin modificadores.,2026-11-18T11:16:14-06:00
+ES014,1,Los profesores leen.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto masculino plural sin modificadores.,2026-11-18T11:16:14-06:00
+ES015,1,Las gatas duermen.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto femenino plural y verbo plural.,2026-11-18T11:16:14-06:00
+ES016,2,La niña bonita lee un libro.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivo concordante y objeto directo.,2026-11-18T11:16:14-06:00
+ES017,2,El profesor alto escribe un libro nuevo.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivos en sujeto y objeto con concordancia.,2026-11-18T11:16:14-06:00
+ES018,2,Las niñas bonitas leen unos libros.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Concordancia plural femenina y objeto masculino plural.,2026-11-18T11:16:14-06:00
+ES019,2,Los perros pequeños corren en el parque.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Adjetivo plural concordante y un complemento preposicional.,2026-11-18T11:16:14-06:00
+ES020,2,La profesora canta alegremente.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Complemento circunstancial adverbial.,2026-11-18T11:16:14-06:00
+ES021,2,Ellos estudian en la escuela.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Pronombre plural y complemento PREP + SN.,2026-11-18T11:16:14-06:00
+ES022,2,Una maestra tranquila observa unas niñas pequeñas.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivos de sujeto y objeto.,2026-11-18T11:16:14-06:00
+ES023,2,Los alumnos nuevos leen unos libros rojos.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Objeto y sujeto con modificadores plurales.,2026-11-18T11:16:14-06:00
+ES024,2,Ella lee un libro en la biblioteca.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Objeto nominal seguido de complemento preposicional.,2026-11-18T11:16:14-06:00
+ES025,2,El perro blanco corre rápidamente.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivo y adverbio.,2026-11-18T11:16:14-06:00
+ES026,2,Las profesoras cansadas trabajan en la escuela.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto plural y complemento circunstancial.,2026-11-18T11:16:14-06:00
+ES027,2,La niña abre una puerta roja cuidadosamente.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,Objeto con adjetivo y circunstancial adverbial.,2026-11-18T11:16:14-06:00
+ES028,2,La niña bonita corren.,rechazada,rechazada,sintactico,sintactico,True,True,,Discordancia de número entre sujeto singular y verbo plural.,2026-11-18T11:16:14-06:00
+ES029,2,Los niños bonita leen.,rechazada,rechazada,sintactico,sintactico,True,True,,El adjetivo femenino singular no concuerda con el sujeto masculino plural.,2026-11-18T11:16:14-06:00
+ES030,2,Las niñas leen un libros.,rechazada,rechazada,sintactico,sintactico,True,True,,El determinante singular no concuerda con el sustantivo plural del objeto.,2026-11-18T11:16:14-06:00
+ES031,3,El niño lee y la niña escribe.,rechazada,rechazada,lexico,lexico,True,True,,Coordinación de dos oraciones: conjunción y fuera del vocabulario.,2026-11-18T11:16:14-06:00
+ES032,3,"Cuando la niña lee, el niño escucha.",rechazada,rechazada,lexico,lexico,True,True,,Subordinación temporal y puntuación no contempladas.,2026-11-18T11:16:14-06:00
+ES033,3,La niña que lee un libro estudia.,rechazada,rechazada,lexico,lexico,True,True,,"Subordinada relativa con que, fuera de la CFG.",2026-11-18T11:16:14-06:00
+ES034,3,El niño corre porque la niña canta.,rechazada,rechazada,lexico,lexico,True,True,,"Subordinada causal, porque fuera del vocabulario.",2026-11-18T11:16:14-06:00
+ES035,3,La niña lee en la escuela con la profesora.,rechazada,rechazada,sintactico,sintactico,True,True,,Dos complementos preposicionales consecutivos; la CFG solo admite uno.,2026-11-18T11:16:14-06:00
+ES036,3,Ellos estudian rápidamente en la escuela.,rechazada,rechazada,sintactico,sintactico,True,True,,Dos circunstanciales: adverbio y frase preposicional.,2026-11-18T11:16:14-06:00
+ES037,3,La niña lee un libro lentamente en la biblioteca.,rechazada,rechazada,sintactico,sintactico,True,True,,Objeto seguido de dos circunstanciales; la CFG solo admite uno.,2026-11-18T11:16:14-06:00
+ES038,3,Los niños leen unos libros en el parque lentamente.,rechazada,rechazada,sintactico,sintactico,True,True,,Complemento PREP + SN seguido de adverbio adicional.,2026-11-18T11:16:14-06:00
+ES039,3,Lee la niña.,rechazada,rechazada,sintactico,sintactico,True,True,,"Orden verbo-sujeto gramatical en español, pero excluido de la CFG.",2026-11-18T11:16:14-06:00
+ES040,3,La niña lee un libro y canta.,rechazada,rechazada,lexico,lexico,True,True,,"Coordinación verbal con y, fuera del vocabulario.",2026-11-18T11:16:14-06:00
+ES041,3,La niña lee un libro bonito y nuevo.,rechazada,rechazada,lexico,lexico,True,True,,"Coordinación de adjetivos con y, fuera de la CFG.",2026-11-18T11:16:14-06:00
+ES042,3,Los niños que estudian leen.,rechazada,rechazada,lexico,lexico,True,True,,"Oración de relativo con que, fuera de la CFG.",2026-11-18T11:16:14-06:00
+ES043,3,La niña lee el libro de la profesora.,aceptada,aceptada,aceptada,aceptada,True,True,ORACION -> SUJETO_S PRED_S PUNTO,"Caso de sobregeneracion: la CFG acepta de la profesora como circunstancial del verbo, aunque en una lectura natural modifica libro; no comprueba el arbol pretendido.",2026-11-18T11:16:14-06:00
+ES044,3,Ella lee libros.,rechazada,rechazada,sintactico,sintactico,True,True,,"Objeto nominal sin determinante, válido en español pero no en esta CFG.",2026-11-18T11:16:14-06:00
+ES045,3,Él está leyendo un libro.,rechazada,rechazada,lexico,lexico,True,True,,Perífrasis verbal progresiva fuera del vocabulario y la CFG.,2026-11-18T11:16:14-06:00

@@ -1,0 +1,46 @@
+﻿id,nivel,oracion,esperado,obtenido,coincide,motivo,criterio_id,timestamp_local
+ES001,1,La niña lee.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES002,1,El niño corre.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES003,1,Los perros corren.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES004,1,Las profesoras trabajan.,aceptada,rechazada,False,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES005,1,Ella canta.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES006,1,Ellos estudian.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES007,1,Él escribe.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES008,1,Ellas caminan.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES009,1,Un gato duerme.,aceptada,rechazada,False,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES010,1,Una maestra escucha.,aceptada,rechazada,False,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES011,1,Unos alumnos saltan.,aceptada,rechazada,False,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES012,1,Unas niñas juegan.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES013,1,La profesora trabaja.,aceptada,rechazada,False,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES014,1,Los profesores leen.,aceptada,rechazada,False,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES015,1,Las gatas duermen.,aceptada,rechazada,False,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES016,2,La niña bonita lee un libro.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES017,2,El profesor alto escribe un libro nuevo.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES018,2,Las niñas bonitas leen unos libros.,aceptada,rechazada,False,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES019,2,Los perros pequeños corren en el parque.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES020,2,La profesora canta alegremente.,aceptada,rechazada,False,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES021,2,Ellos estudian en la escuela.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES022,2,Una maestra tranquila observa unas niñas pequeñas.,aceptada,rechazada,False,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES023,2,Los alumnos nuevos leen unos libros rojos.,aceptada,rechazada,False,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES024,2,Ella lee un libro en la biblioteca.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES025,2,El perro blanco corre rápidamente.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES026,2,Las profesoras cansadas trabajan en la escuela.,aceptada,rechazada,False,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES027,2,La niña abre una puerta roja cuidadosamente.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES028,2,La niña bonita corren.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES029,2,Los niños bonita leen.,rechazada,rechazada,True,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES030,2,Las niñas leen un libros.,rechazada,rechazada,True,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES031,3,El niño lee y la niña escribe.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES032,3,"Cuando la niña lee, el niño escucha.",rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES033,3,La niña que lee un libro estudia.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES034,3,El niño corre porque la niña canta.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES035,3,La niña lee en la escuela con la profesora.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES036,3,Ellos estudian rápidamente en la escuela.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES037,3,La niña lee un libro lentamente en la biblioteca.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES038,3,Los niños leen unos libros en el parque lentamente.,rechazada,rechazada,True,El etiquetador NLTK no identifico verbo finito.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES039,3,Lee la niña.,rechazada,rechazada,True,No se detecto sintagma nominal candidato a sujeto antes del verbo.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES040,3,La niña lee un libro y canta.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES041,3,La niña lee un libro bonito y nuevo.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES042,3,Los niños que estudian leen.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES043,3,La niña lee el libro de la profesora.,aceptada,aceptada,True,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES044,3,Ella lee libros.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00
+ES045,3,Él está leyendo un libro.,rechazada,aceptada,False,Cumple las cuatro condiciones del criterio NLTK.,nltk_pos_sintagma_sujeto_v1,2026-11-18T11:45:20-06:00

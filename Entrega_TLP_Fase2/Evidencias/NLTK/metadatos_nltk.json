@@ -1,0 +1,29 @@
+{
+  "inicio_local": "2026-11-18T11:45:20-06:00",
+  "final_local": "2026-11-18T11:45:20-06:00",
+  "configuracion_horaria": "dispositivo",
+  "python": "3.14.5",
+  "nltk": "3.10.4",
+  "metodo": "Etiquetador POS NLTK entrenado con CESS-ESP + RegexpParser de chunks SN",
+  "recursos_nltk": [
+    "cess_esp",
+    "punkt_tab"
+  ],
+  "criterio_id": "nltk_pos_sintagma_sujeto_v1",
+  "criterio_texto": "Aceptada si termina en punto, NLTK identifica una sola oracion, detecta un verbo finito y existe un sintagma nominal candidato a sujeto antes del primer verbo finito. En otro caso, rechazada.",
+  "gramatica_chunks": "\nSN:\n    {<DET><ADJ>*<NOUN><ADJ>*}\n    {<PRON>}\n    {<NOUN><ADJ>*}\n",
+  "entrenamiento": {
+    "corpus_entrenamiento": "CESS-ESP (NLTK)",
+    "sha256_corpus_cess_esp": "3c2807ce1ca4b299c599dfe710fd6ba51ad21812265f688b07ebcde351967c6b",
+    "semilla": 2026,
+    "total_oraciones_cess": 6030,
+    "entrenamiento_oraciones": 4824,
+    "validacion_oraciones": 1206,
+    "exactitud_pos_validacion_cess": 0.8895535644314412,
+    "tagger": "BigramTagger -> UnigramTagger -> DefaultTagger(UNK)",
+    "normalizacion": "casefold de las palabras (no de las etiquetas)"
+  },
+  "numero_oraciones": 45,
+  "corpus_sha256": "7b1baa53cd63f2401c361be97c2b34709631deae87714e90c8e8691c76d9ca08",
+  "script_sha256": "77cf0c32ef31f25e6928b9c64446684415e51b40719bfda3ac5d2fd56731de7a"
+}

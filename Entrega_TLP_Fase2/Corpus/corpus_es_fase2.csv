@@ -1,0 +1,46 @@
+﻿id,nivel,oracion,etiqueta_esperada,etapa_esperada,estructura_esperada,justificacion
+ES001,1,La niña lee.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,"Sujeto femenino singular, verbo singular y punto."
+ES002,1,El niño corre.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Sujeto masculino singular y verbo singular.
+ES003,1,Los perros corren.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto masculino plural y verbo plural.
+ES004,1,Las profesoras trabajan.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto femenino plural y verbo plural.
+ES005,1,Ella canta.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Pronombre singular y verbo singular.
+ES006,1,Ellos estudian.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Pronombre plural y verbo plural.
+ES007,1,Él escribe.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Pronombre singular acentuado y verbo singular.
+ES008,1,Ellas caminan.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Pronombre plural y verbo plural.
+ES009,1,Un gato duerme.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Determinante y sustantivo masculinos singulares.
+ES010,1,Una maestra escucha.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Determinante y sustantivo femeninos singulares.
+ES011,1,Unos alumnos saltan.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Determinante y sustantivo masculinos plurales.
+ES012,1,Unas niñas juegan.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Determinante y sustantivo femeninos plurales.
+ES013,1,La profesora trabaja.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Sujeto femenino singular sin modificadores.
+ES014,1,Los profesores leen.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto masculino plural sin modificadores.
+ES015,1,Las gatas duermen.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto femenino plural y verbo plural.
+ES016,2,La niña bonita lee un libro.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivo concordante y objeto directo.
+ES017,2,El profesor alto escribe un libro nuevo.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivos en sujeto y objeto con concordancia.
+ES018,2,Las niñas bonitas leen unos libros.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Concordancia plural femenina y objeto masculino plural.
+ES019,2,Los perros pequeños corren en el parque.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Adjetivo plural concordante y un complemento preposicional.
+ES020,2,La profesora canta alegremente.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Complemento circunstancial adverbial.
+ES021,2,Ellos estudian en la escuela.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Pronombre plural y complemento PREP + SN.
+ES022,2,Una maestra tranquila observa unas niñas pequeñas.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivos de sujeto y objeto.
+ES023,2,Los alumnos nuevos leen unos libros rojos.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Objeto y sujeto con modificadores plurales.
+ES024,2,Ella lee un libro en la biblioteca.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Objeto nominal seguido de complemento preposicional.
+ES025,2,El perro blanco corre rápidamente.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Adjetivo y adverbio.
+ES026,2,Las profesoras cansadas trabajan en la escuela.,aceptada,aceptada,ORACION -> SUJETO_P PRED_P PUNTO,Sujeto plural y complemento circunstancial.
+ES027,2,La niña abre una puerta roja cuidadosamente.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,Objeto con adjetivo y circunstancial adverbial.
+ES028,2,La niña bonita corren.,rechazada,sintactico,,Discordancia de número entre sujeto singular y verbo plural.
+ES029,2,Los niños bonita leen.,rechazada,sintactico,,El adjetivo femenino singular no concuerda con el sujeto masculino plural.
+ES030,2,Las niñas leen un libros.,rechazada,sintactico,,El determinante singular no concuerda con el sustantivo plural del objeto.
+ES031,3,El niño lee y la niña escribe.,rechazada,lexico,,Coordinación de dos oraciones: conjunción y fuera del vocabulario.
+ES032,3,"Cuando la niña lee, el niño escucha.",rechazada,lexico,,Subordinación temporal y puntuación no contempladas.
+ES033,3,La niña que lee un libro estudia.,rechazada,lexico,,"Subordinada relativa con que, fuera de la CFG."
+ES034,3,El niño corre porque la niña canta.,rechazada,lexico,,"Subordinada causal, porque fuera del vocabulario."
+ES035,3,La niña lee en la escuela con la profesora.,rechazada,sintactico,,Dos complementos preposicionales consecutivos; la CFG solo admite uno.
+ES036,3,Ellos estudian rápidamente en la escuela.,rechazada,sintactico,,Dos circunstanciales: adverbio y frase preposicional.
+ES037,3,La niña lee un libro lentamente en la biblioteca.,rechazada,sintactico,,Objeto seguido de dos circunstanciales; la CFG solo admite uno.
+ES038,3,Los niños leen unos libros en el parque lentamente.,rechazada,sintactico,,Complemento PREP + SN seguido de adverbio adicional.
+ES039,3,Lee la niña.,rechazada,sintactico,,"Orden verbo-sujeto gramatical en español, pero excluido de la CFG."
+ES040,3,La niña lee un libro y canta.,rechazada,lexico,,"Coordinación verbal con y, fuera del vocabulario."
+ES041,3,La niña lee un libro bonito y nuevo.,rechazada,lexico,,"Coordinación de adjetivos con y, fuera de la CFG."
+ES042,3,Los niños que estudian leen.,rechazada,lexico,,"Oración de relativo con que, fuera de la CFG."
+ES043,3,La niña lee el libro de la profesora.,aceptada,aceptada,ORACION -> SUJETO_S PRED_S PUNTO,"Caso de sobregeneracion: la CFG acepta de la profesora como circunstancial del verbo, aunque en una lectura natural modifica libro; no comprueba el arbol pretendido."
+ES044,3,Ella lee libros.,rechazada,sintactico,,"Objeto nominal sin determinante, válido en español pero no en esta CFG."
+ES045,3,Él está leyendo un libro.,rechazada,lexico,,Perífrasis verbal progresiva fuera del vocabulario y la CFG.

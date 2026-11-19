@@ -1,0 +1,118 @@
+{
+  "criterio_id": "llm_cfg_es_v1",
+  "estudio_completo": true,
+  "aviso": "Resultados del corpus completo; revisar errores de API si existen.",
+  "por_modo": {
+    "zero-shot": {
+      "total_planificado": 45,
+      "respuestas_validas": 45,
+      "errores_api_o_formato": 0,
+      "total": {
+        "total_evaluado": 45,
+        "VP": 23,
+        "FP": 1,
+        "FN": 5,
+        "VN": 16,
+        "precision": 0.9583333333333334,
+        "recall": 0.8214285714285714,
+        "tasa_rechazo_correcto": 0.9411764705882353,
+        "exactitud": 0.8666666666666667
+      },
+      "por_nivel": {
+        "1": {
+          "total_evaluado": 15,
+          "VP": 13,
+          "FP": 0,
+          "FN": 2,
+          "VN": 0,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "tasa_rechazo_correcto": null,
+          "exactitud": 0.8666666666666667
+        },
+        "2": {
+          "total_evaluado": 15,
+          "VP": 10,
+          "FP": 0,
+          "FN": 2,
+          "VN": 3,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "tasa_rechazo_correcto": 1.0,
+          "exactitud": 0.8666666666666667
+        },
+        "3": {
+          "total_evaluado": 15,
+          "VP": 0,
+          "FP": 1,
+          "FN": 1,
+          "VN": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tasa_rechazo_correcto": 0.9285714285714286,
+          "exactitud": 0.8666666666666667
+        }
+      }
+    },
+    "few-shot": {
+      "total_planificado": 45,
+      "respuestas_validas": 45,
+      "errores_api_o_formato": 0,
+      "total": {
+        "total_evaluado": 45,
+        "VP": 28,
+        "FP": 0,
+        "FN": 0,
+        "VN": 17,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tasa_rechazo_correcto": 1.0,
+        "exactitud": 1.0
+      },
+      "por_nivel": {
+        "1": {
+          "total_evaluado": 15,
+          "VP": 15,
+          "FP": 0,
+          "FN": 0,
+          "VN": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tasa_rechazo_correcto": null,
+          "exactitud": 1.0
+        },
+        "2": {
+          "total_evaluado": 15,
+          "VP": 12,
+          "FP": 0,
+          "FN": 0,
+          "VN": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tasa_rechazo_correcto": 1.0,
+          "exactitud": 1.0
+        },
+        "3": {
+          "total_evaluado": 15,
+          "VP": 1,
+          "FP": 0,
+          "FN": 0,
+          "VN": 14,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tasa_rechazo_correcto": 1.0,
+          "exactitud": 1.0
+        }
+      }
+    }
+  },
+  "uso_tokens_api": {
+    "solicitudes_con_uso": 90,
+    "input_tokens": 104869,
+    "output_tokens": 3473,
+    "total_tokens": 108342,
+    "cached_input_tokens": 57222,
+    "cache_write_tokens": 23873,
+    "reasoning_tokens": 0
+  }
+}

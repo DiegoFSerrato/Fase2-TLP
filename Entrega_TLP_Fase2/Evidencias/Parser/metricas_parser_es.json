@@ -1,0 +1,53 @@
+{
+  "total": {
+    "total": 45,
+    "VP": 28,
+    "FP": 0,
+    "FN": 0,
+    "VN": 17,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tasa_rechazo_correcto": 1.0,
+    "exactitud": 1.0
+  },
+  "por_nivel": {
+    "1": {
+      "total": 15,
+      "VP": 15,
+      "FP": 0,
+      "FN": 0,
+      "VN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tasa_rechazo_correcto": null,
+      "exactitud": 1.0
+    },
+    "2": {
+      "total": 15,
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "VN": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tasa_rechazo_correcto": 1.0,
+      "exactitud": 1.0
+    },
+    "3": {
+      "total": 15,
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "VN": 14,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tasa_rechazo_correcto": 1.0,
+      "exactitud": 1.0
+    }
+  },
+  "discordancias_etapa": 0,
+  "criterio": "positivo=oracion aceptada por la CFG; negativo=oracion rechazada por la CFG",
+  "formula_precision": "VP / (VP + FP)",
+  "formula_recall": "VP / (VP + FN)",
+  "formula_tasa_rechazo_correcto": "VN / (VN + FP)"
+}

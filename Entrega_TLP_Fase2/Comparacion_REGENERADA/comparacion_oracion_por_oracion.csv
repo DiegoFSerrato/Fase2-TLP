@@ -1,0 +1,46 @@
+﻿id,nivel,oracion,esperado,Parser LL(1),spaCy + criterio,NLTK + criterio,LLM zero-shot,LLM few-shot
+ES001,1,La niña lee.,aceptada,aceptada,rechazada,aceptada,aceptada,aceptada
+ES002,1,El niño corre.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES003,1,Los perros corren.,aceptada,aceptada,aceptada,aceptada,rechazada,aceptada
+ES004,1,Las profesoras trabajan.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES005,1,Ella canta.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES006,1,Ellos estudian.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES007,1,Él escribe.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES008,1,Ellas caminan.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES009,1,Un gato duerme.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES010,1,Una maestra escucha.,aceptada,aceptada,rechazada,rechazada,rechazada,aceptada
+ES011,1,Unos alumnos saltan.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES012,1,Unas niñas juegan.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES013,1,La profesora trabaja.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES014,1,Los profesores leen.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES015,1,Las gatas duermen.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES016,2,La niña bonita lee un libro.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES017,2,El profesor alto escribe un libro nuevo.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES018,2,Las niñas bonitas leen unos libros.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES019,2,Los perros pequeños corren en el parque.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES020,2,La profesora canta alegremente.,aceptada,aceptada,rechazada,rechazada,aceptada,aceptada
+ES021,2,Ellos estudian en la escuela.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES022,2,Una maestra tranquila observa unas niñas pequeñas.,aceptada,aceptada,aceptada,rechazada,rechazada,aceptada
+ES023,2,Los alumnos nuevos leen unos libros rojos.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES024,2,Ella lee un libro en la biblioteca.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES025,2,El perro blanco corre rápidamente.,aceptada,aceptada,aceptada,aceptada,aceptada,aceptada
+ES026,2,Las profesoras cansadas trabajan en la escuela.,aceptada,aceptada,aceptada,rechazada,aceptada,aceptada
+ES027,2,La niña abre una puerta roja cuidadosamente.,aceptada,aceptada,aceptada,aceptada,rechazada,aceptada
+ES028,2,La niña bonita corren.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES029,2,Los niños bonita leen.,rechazada,rechazada,aceptada,rechazada,rechazada,rechazada
+ES030,2,Las niñas leen un libros.,rechazada,rechazada,aceptada,rechazada,rechazada,rechazada
+ES031,3,El niño lee y la niña escribe.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES032,3,"Cuando la niña lee, el niño escucha.",rechazada,rechazada,rechazada,aceptada,rechazada,rechazada
+ES033,3,La niña que lee un libro estudia.,rechazada,rechazada,rechazada,aceptada,rechazada,rechazada
+ES034,3,El niño corre porque la niña canta.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES035,3,La niña lee en la escuela con la profesora.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES036,3,Ellos estudian rápidamente en la escuela.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES037,3,La niña lee un libro lentamente en la biblioteca.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES038,3,Los niños leen unos libros en el parque lentamente.,rechazada,rechazada,aceptada,rechazada,rechazada,rechazada
+ES039,3,Lee la niña.,rechazada,rechazada,rechazada,rechazada,rechazada,rechazada
+ES040,3,La niña lee un libro y canta.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES041,3,La niña lee un libro bonito y nuevo.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada
+ES042,3,Los niños que estudian leen.,rechazada,rechazada,rechazada,aceptada,rechazada,rechazada
+ES043,3,La niña lee el libro de la profesora.,aceptada,aceptada,aceptada,aceptada,rechazada,aceptada
+ES044,3,Ella lee libros.,rechazada,rechazada,aceptada,aceptada,aceptada,rechazada
+ES045,3,Él está leyendo un libro.,rechazada,rechazada,aceptada,aceptada,rechazada,rechazada

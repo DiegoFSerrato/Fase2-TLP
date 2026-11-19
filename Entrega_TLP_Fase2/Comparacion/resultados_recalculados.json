@@ -1,0 +1,72 @@
+{
+  "archivos_sha256": {
+    "corpus_es_fase2.csv": "7b1baa53cd63f2401c361be97c2b34709631deae87714e90c8e8691c76d9ca08",
+    "resultados_parser_es.csv": "a441253ea70fa8675d3d812446720fea6c6d0a31e56e69dc9c14fd0c45390068",
+    "resultados_spacy.csv": "b52b5f1e1f77f5b56f5479dce9b9752e868026f1ba986d303e8b02a6ce48a995",
+    "resultados_nltk.csv": "53a61133262003619a437b13bb54ef137fd9cb704ec6ffede40705939299b7ea",
+    "resultados_llm(1).csv": "8e5fba05ba6059488f0a5138c7be4b420676051a5657411147a3345208303faa"
+  },
+  "numero_oraciones": 45,
+  "metodos": {
+    "Parser LL(1)": {
+      "total": 45,
+      "VP": 28,
+      "FP": 0,
+      "FN": 0,
+      "VN": 17,
+      "precision": 1.0,
+      "recall": 1.0,
+      "rechazo_correcto": 1.0,
+      "exactitud": 1.0,
+      "f1": 1.0
+    },
+    "spaCy + criterio": {
+      "total": 45,
+      "VP": 25,
+      "FP": 13,
+      "FN": 3,
+      "VN": 4,
+      "precision": 0.6578947368421053,
+      "recall": 0.8928571428571429,
+      "rechazo_correcto": 0.23529411764705882,
+      "exactitud": 0.6444444444444445,
+      "f1": 0.7575757575757576
+    },
+    "NLTK + criterio": {
+      "total": 45,
+      "VP": 16,
+      "FP": 13,
+      "FN": 12,
+      "VN": 4,
+      "precision": 0.5517241379310345,
+      "recall": 0.5714285714285714,
+      "rechazo_correcto": 0.23529411764705882,
+      "exactitud": 0.4444444444444444,
+      "f1": 0.5614035087719298
+    },
+    "LLM zero-shot": {
+      "total": 45,
+      "VP": 23,
+      "FP": 1,
+      "FN": 5,
+      "VN": 16,
+      "precision": 0.9583333333333334,
+      "recall": 0.8214285714285714,
+      "rechazo_correcto": 0.9411764705882353,
+      "exactitud": 0.8666666666666667,
+      "f1": 0.8846153846153846
+    },
+    "LLM few-shot": {
+      "total": 45,
+      "VP": 28,
+      "FP": 0,
+      "FN": 0,
+      "VN": 17,
+      "precision": 1.0,
+      "recall": 1.0,
+      "rechazo_correcto": 1.0,
+      "exactitud": 1.0,
+      "f1": 1.0
+    }
+  }
+}

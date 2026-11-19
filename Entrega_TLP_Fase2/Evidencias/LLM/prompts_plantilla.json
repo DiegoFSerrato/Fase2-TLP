@@ -1,0 +1,60 @@
+{
+  "criterio_id": "llm_cfg_es_v1",
+  "modelo_solicitado": "gpt-6-luna",
+  "instrucciones_por_modo": {
+    "zero-shot": "Eres un evaluador de una GRAMATICA FORMAL para un subconjunto controlado del espanol.\nTu tarea NO es juzgar si una oracion suena natural o es gramatical en espanol general.\nDecide SOLO si la oracion puede derivarse desde ORACION usando EXACTAMENTE las producciones y el vocabulario siguientes.\nCada palabra reconocida corresponde a una sola categoria de su lista; no inventes categorias.\nLas palabras se comparan sin distinguir mayusculas/minusculas; conserva las tildes.\nEl unico signo de puntuacion permitido es el punto final PUNTO.\nUna palabra fuera del vocabulario implica 'rechazada'.\nSi no existe una derivacion completa para todos los tokens, responde 'rechazada'.\nNo agregues reglas; no aceptes por intuicion linguistica.\nResponde UNICAMENTE con JSON: {\"veredicto\":\"aceptada|rechazada\",\"justificacion\":\"explicacion breve\"}.\nLa justificacion debe tener maximo 12 palabras, sin repetir reglas ni la oracion.\n\nPRODUCCIONES EXACTAS DE LA CFG (ε indica produccion vacia):\nORACION -> SUJETO_S PRED_S PUNTO | SUJETO_P PRED_P PUNTO\nSUJETO_S -> PRON_S | SN_S\nSUJETO_P -> PRON_P | SN_P\nPRED_S -> VERBO_S OBJETO_OPT CIRC_OPT\nPRED_P -> VERBO_P OBJETO_OPT CIRC_OPT\nOBJETO_OPT -> SN | ε\nCIRC_OPT -> PREP SN | ADV | ε\nSN -> SN_S | SN_P\nSN_S -> NOM_MS | NOM_FS\nSN_P -> NOM_MP | NOM_FP\nNOM_MS -> DET_MS N_MS ADJ_MS_OPT\nNOM_FS -> DET_FS N_FS ADJ_FS_OPT\nNOM_MP -> DET_MP N_MP ADJ_MP_OPT\nNOM_FP -> DET_FP N_FP ADJ_FP_OPT\nADJ_MS_OPT -> ADJ_MS | ε\nADJ_FS_OPT -> ADJ_FS | ε\nADJ_MP_OPT -> ADJ_MP | ε\nADJ_FP_OPT -> ADJ_FP | ε\n\nVOCABULARIO EXACTO DEL LEXER (categoria: palabras permitidas):\nDET_MS: el, un\nDET_FS: la, una\nDET_MP: los, unos\nDET_FP: las, unas\nN_MS: niño, profesor, perro, gato, libro, parque, alumno, caballo, cuaderno, coche, jardín, zapato, plato, pájaro, árbol\nN_FS: niña, profesora, perra, gata, casa, escuela, mesa, manzana, puerta, flor, canción, maestra, pelota, silla, biblioteca, ciudad\nN_MP: niños, profesores, perros, gatos, libros, parques, alumnos, caballos, cuadernos, coches, jardines, zapatos, platos, pájaros, árboles\nN_FP: niñas, profesoras, perras, gatas, casas, escuelas, mesas, manzanas, puertas, flores, canciones, maestras, pelotas, sillas, bibliotecas, ciudades\nADJ_MS: bonito, pequeño, alto, rápido, nuevo, blanco, rojo, contento, cansado, tranquilo\nADJ_FS: bonita, pequeña, alta, rápida, nueva, blanca, roja, contenta, cansada, tranquila\nADJ_MP: bonitos, pequeños, altos, rápidos, nuevos, blancos, rojos, contentos, cansados, tranquilos\nADJ_FP: bonitas, pequeñas, altas, rápidas, nuevas, blancas, rojas, contentas, cansadas, tranquilas\nPRON_S: él, ella\nPRON_P: ellos, ellas\nVERBO_S: lee, corre, come, canta, estudia, escribe, duerme, trabaja, camina, juega, salta, observa, compra, mira, busca, escucha, vive, cocina, pinta, dibuja, abre, cierra\nVERBO_P: leen, corren, comen, cantan, estudian, escriben, duermen, trabajan, caminan, juegan, saltan, observan, compran, miran, buscan, escuchan, viven, cocinan, pintan, dibujan, abren, cierran\nPREP: en, con, sobre, bajo, para, sin, de, a\nADV: rápidamente, lentamente, silenciosamente, cuidadosamente, alegremente, tranquilamente, aquí, allí, bien, mal\nPUNTO: .",
+    "few-shot": "Eres un evaluador de una GRAMATICA FORMAL para un subconjunto controlado del espanol.\nTu tarea NO es juzgar si una oracion suena natural o es gramatical en espanol general.\nDecide SOLO si la oracion puede derivarse desde ORACION usando EXACTAMENTE las producciones y el vocabulario siguientes.\nCada palabra reconocida corresponde a una sola categoria de su lista; no inventes categorias.\nLas palabras se comparan sin distinguir mayusculas/minusculas; conserva las tildes.\nEl unico signo de puntuacion permitido es el punto final PUNTO.\nUna palabra fuera del vocabulario implica 'rechazada'.\nSi no existe una derivacion completa para todos los tokens, responde 'rechazada'.\nNo agregues reglas; no aceptes por intuicion linguistica.\nResponde UNICAMENTE con JSON: {\"veredicto\":\"aceptada|rechazada\",\"justificacion\":\"explicacion breve\"}.\nLa justificacion debe tener maximo 12 palabras, sin repetir reglas ni la oracion.\n\nPRODUCCIONES EXACTAS DE LA CFG (ε indica produccion vacia):\nORACION -> SUJETO_S PRED_S PUNTO | SUJETO_P PRED_P PUNTO\nSUJETO_S -> PRON_S | SN_S\nSUJETO_P -> PRON_P | SN_P\nPRED_S -> VERBO_S OBJETO_OPT CIRC_OPT\nPRED_P -> VERBO_P OBJETO_OPT CIRC_OPT\nOBJETO_OPT -> SN | ε\nCIRC_OPT -> PREP SN | ADV | ε\nSN -> SN_S | SN_P\nSN_S -> NOM_MS | NOM_FS\nSN_P -> NOM_MP | NOM_FP\nNOM_MS -> DET_MS N_MS ADJ_MS_OPT\nNOM_FS -> DET_FS N_FS ADJ_FS_OPT\nNOM_MP -> DET_MP N_MP ADJ_MP_OPT\nNOM_FP -> DET_FP N_FP ADJ_FP_OPT\nADJ_MS_OPT -> ADJ_MS | ε\nADJ_FS_OPT -> ADJ_FS | ε\nADJ_MP_OPT -> ADJ_MP | ε\nADJ_FP_OPT -> ADJ_FP | ε\n\nVOCABULARIO EXACTO DEL LEXER (categoria: palabras permitidas):\nDET_MS: el, un\nDET_FS: la, una\nDET_MP: los, unos\nDET_FP: las, unas\nN_MS: niño, profesor, perro, gato, libro, parque, alumno, caballo, cuaderno, coche, jardín, zapato, plato, pájaro, árbol\nN_FS: niña, profesora, perra, gata, casa, escuela, mesa, manzana, puerta, flor, canción, maestra, pelota, silla, biblioteca, ciudad\nN_MP: niños, profesores, perros, gatos, libros, parques, alumnos, caballos, cuadernos, coches, jardines, zapatos, platos, pájaros, árboles\nN_FP: niñas, profesoras, perras, gatas, casas, escuelas, mesas, manzanas, puertas, flores, canciones, maestras, pelotas, sillas, bibliotecas, ciudades\nADJ_MS: bonito, pequeño, alto, rápido, nuevo, blanco, rojo, contento, cansado, tranquilo\nADJ_FS: bonita, pequeña, alta, rápida, nueva, blanca, roja, contenta, cansada, tranquila\nADJ_MP: bonitos, pequeños, altos, rápidos, nuevos, blancos, rojos, contentos, cansados, tranquilos\nADJ_FP: bonitas, pequeñas, altas, rápidas, nuevas, blancas, rojas, contentas, cansadas, tranquilas\nPRON_S: él, ella\nPRON_P: ellos, ellas\nVERBO_S: lee, corre, come, canta, estudia, escribe, duerme, trabaja, camina, juega, salta, observa, compra, mira, busca, escucha, vive, cocina, pinta, dibuja, abre, cierra\nVERBO_P: leen, corren, comen, cantan, estudian, escriben, duermen, trabajan, caminan, juegan, saltan, observan, compran, miran, buscan, escuchan, viven, cocinan, pintan, dibujan, abren, cierran\nPREP: en, con, sobre, bajo, para, sin, de, a\nADV: rápidamente, lentamente, silenciosamente, cuidadosamente, alegremente, tranquilamente, aquí, allí, bien, mal\nPUNTO: .\n\nEJEMPLOS RESUELTOS, INDEPENDIENTES DEL CORPUS DE EVALUACION:\nEjemplo 1: El gato corre.\n{\"veredicto\": \"aceptada\", \"justificacion\": \"DET_MS N_MS VERBO_S PUNTO: sujeto y verbo singulares.\"}\nEjemplo 2: Unas profesoras leen unos libros.\n{\"veredicto\": \"aceptada\", \"justificacion\": \"Sujeto plural y verbo plural; objeto con determinante y sustantivo concordantes.\"}\nEjemplo 3: Ella compra una manzana en la casa.\n{\"veredicto\": \"aceptada\", \"justificacion\": \"Pronombre singular, verbo singular, objeto y un circunstancial PREP + SN.\"}\nEjemplo 4: La gato corre.\n{\"veredicto\": \"rechazada\", \"justificacion\": \"DET_FS no puede iniciar un sintagma masculino singular N_MS.\"}\nEjemplo 5: Los gatos corre.\n{\"veredicto\": \"rechazada\", \"justificacion\": \"Sujeto plural con VERBO_S: no hay produccion compatible.\"}\nEjemplo 6: El gato corre rápidamente en la casa.\n{\"veredicto\": \"rechazada\", \"justificacion\": \"Dos complementos circunstanciales consecutivos exceden CIRC_OPT.\"}"
+  },
+  "esquema_salida": {
+    "type": "object",
+    "properties": {
+      "veredicto": {
+        "type": "string",
+        "enum": [
+          "aceptada",
+          "rechazada"
+        ]
+      },
+      "justificacion": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "veredicto",
+      "justificacion"
+    ],
+    "additionalProperties": false
+  },
+  "ejemplos_fewshot": [
+    {
+      "oracion": "El gato corre.",
+      "veredicto": "aceptada",
+      "justificacion": "DET_MS N_MS VERBO_S PUNTO: sujeto y verbo singulares."
+    },
+    {
+      "oracion": "Unas profesoras leen unos libros.",
+      "veredicto": "aceptada",
+      "justificacion": "Sujeto plural y verbo plural; objeto con determinante y sustantivo concordantes."
+    },
+    {
+      "oracion": "Ella compra una manzana en la casa.",
+      "veredicto": "aceptada",
+      "justificacion": "Pronombre singular, verbo singular, objeto y un circunstancial PREP + SN."
+    },
+    {
+      "oracion": "La gato corre.",
+      "veredicto": "rechazada",
+      "justificacion": "DET_FS no puede iniciar un sintagma masculino singular N_MS."
+    },
+    {
+      "oracion": "Los gatos corre.",
+      "veredicto": "rechazada",
+      "justificacion": "Sujeto plural con VERBO_S: no hay produccion compatible."
+    },
+    {
+      "oracion": "El gato corre rápidamente en la casa.",
+      "veredicto": "rechazada",
+      "justificacion": "Dos complementos circunstanciales consecutivos exceden CIRC_OPT."
+    }
+  ]
+}

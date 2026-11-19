@@ -1,0 +1,22 @@
+{
+  "inicio_local": "2026-11-18T11:28:49-06:00",
+  "final_local": "2026-11-18T11:28:49-06:00",
+  "configuracion_horaria": "dispositivo",
+  "python": "3.14.5",
+  "spacy": "3.8.18",
+  "modelo": "es_core_news_sm",
+  "modelo_version": "3.8.0",
+  "pipeline": [
+    "tok2vec",
+    "morphologizer",
+    "parser",
+    "attribute_ruler",
+    "lemmatizer",
+    "ner"
+  ],
+  "criterio_id": "spacy_raiz_verbal_sujeto_v1",
+  "criterio_texto": "Aceptada si: termina en punto, spaCy detecta una sola oracion, su raiz es VERB o AUX, y posee sujeto explicito nsubj o csubj dependiente directamente de esa raiz. Si falta alguna condicion, rechazada.",
+  "numero_oraciones": 45,
+  "corpus_sha256": "7b1baa53cd63f2401c361be97c2b34709631deae87714e90c8e8691c76d9ca08",
+  "script_sha256": "91f138020e976aaa167c40919b8b196abc52f8d5d4de96c303f3aaf1c3adc67d"
+}

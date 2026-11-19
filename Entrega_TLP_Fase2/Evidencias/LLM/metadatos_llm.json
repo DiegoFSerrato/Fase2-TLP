@@ -1,0 +1,96 @@
+{
+  "inicio_local": "2026-11-18T12:39:06-06:00",
+  "modelo_solicitado": "gpt-6-luna",
+  "proveedor": "OpenAI",
+  "endpoint": "Responses API",
+  "sdk_openai": "3.55.1",
+  "python": "3.14.5",
+  "modos": [
+    "zero-shot",
+    "few-shot"
+  ],
+  "estudio_completo": true,
+  "oraciones_corpus": 45,
+  "oraciones_seleccionadas": 45,
+  "llamadas_planificadas": 90,
+  "criterio_id": "llm_cfg_es_v1",
+  "nota_metodologica": "La referencia es aceptacion por la CFG, NO correccion general del espanol.",
+  "corpus_sha256": "7b1baa53cd63f2401c361be97c2b34709631deae87714e90c8e8691c76d9ca08",
+  "gramatica_sha256": "3bb92065cedb2e1bb687d731e7d26c7d692ff9eb35a08b56f585b5cc7c3f6741",
+  "lexer_sha256": "b99bd32f73c4fdef6d790b4a266846c6ed68d4b96e0abe2fa9d9461d44b5f792",
+  "script_sha256": "541a93d9f4e088887f0b3bdd723d8fda049eea30346eaed7b1ee041479b941f2",
+  "ejemplos_fewshot": [
+    {
+      "oracion": "El gato corre.",
+      "veredicto": "aceptada",
+      "justificacion": "DET_MS N_MS VERBO_S PUNTO: sujeto y verbo singulares."
+    },
+    {
+      "oracion": "Unas profesoras leen unos libros.",
+      "veredicto": "aceptada",
+      "justificacion": "Sujeto plural y verbo plural; objeto con determinante y sustantivo concordantes."
+    },
+    {
+      "oracion": "Ella compra una manzana en la casa.",
+      "veredicto": "aceptada",
+      "justificacion": "Pronombre singular, verbo singular, objeto y un circunstancial PREP + SN."
+    },
+    {
+      "oracion": "La gato corre.",
+      "veredicto": "rechazada",
+      "justificacion": "DET_FS no puede iniciar un sintagma masculino singular N_MS."
+    },
+    {
+      "oracion": "Los gatos corre.",
+      "veredicto": "rechazada",
+      "justificacion": "Sujeto plural con VERBO_S: no hay produccion compatible."
+    },
+    {
+      "oracion": "El gato corre rápidamente en la casa.",
+      "veredicto": "rechazada",
+      "justificacion": "Dos complementos circunstanciales consecutivos exceden CIRC_OPT."
+    }
+  ],
+  "parametros_api": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 200,
+    "store": false,
+    "prompt_cache_options": {
+      "mode": "implicit"
+    },
+    "max_retries": 0,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "veredicto": {
+          "type": "string",
+          "enum": [
+            "aceptada",
+            "rechazada"
+          ]
+        },
+        "justificacion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "veredicto",
+        "justificacion"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "uso_tokens_api": {
+    "solicitudes_con_uso": 90,
+    "input_tokens": 104869,
+    "output_tokens": 3473,
+    "total_tokens": 108342,
+    "cached_input_tokens": 57222,
+    "cache_write_tokens": 23873,
+    "reasoning_tokens": 0
+  },
+  "final_local": "2026-11-18T12:41:06-06:00",
+  "llamadas_registradas": 90,
+  "errores_api_o_formato": 0,
+  "carpeta_salida": "C:\\Users\\renec\\OneDrive\\Desktop\\Proyecto TLP\\Fase 2\\resultados_llm\\20261118_123906_485692"
+}

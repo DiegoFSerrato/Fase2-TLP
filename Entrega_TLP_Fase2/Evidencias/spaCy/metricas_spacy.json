@@ -1,0 +1,52 @@
+{
+  "total": {
+    "total": 45,
+    "VP": 25,
+    "FP": 13,
+    "FN": 3,
+    "VN": 4,
+    "precision": 0.6578947368421053,
+    "recall": 0.8928571428571429,
+    "tasa_rechazo_correcto": 0.23529411764705882,
+    "exactitud": 0.6444444444444445
+  },
+  "por_nivel": {
+    "1": {
+      "total": 15,
+      "VP": 13,
+      "FP": 0,
+      "FN": 2,
+      "VN": 0,
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "tasa_rechazo_correcto": null,
+      "exactitud": 0.8666666666666667
+    },
+    "2": {
+      "total": 15,
+      "VP": 11,
+      "FP": 3,
+      "FN": 1,
+      "VN": 0,
+      "precision": 0.7857142857142857,
+      "recall": 0.9166666666666666,
+      "tasa_rechazo_correcto": 0.0,
+      "exactitud": 0.7333333333333333
+    },
+    "3": {
+      "total": 15,
+      "VP": 1,
+      "FP": 10,
+      "FN": 0,
+      "VN": 4,
+      "precision": 0.09090909090909091,
+      "recall": 1.0,
+      "tasa_rechazo_correcto": 0.2857142857142857,
+      "exactitud": 0.3333333333333333
+    }
+  },
+  "criterio_id": "spacy_raiz_verbal_sujeto_v1",
+  "criterio_texto": "Aceptada si: termina en punto, spaCy detecta una sola oracion, su raiz es VERB o AUX, y posee sujeto explicito nsubj o csubj dependiente directamente de esa raiz. Si falta alguna condicion, rechazada.",
+  "etiquetas_referencia": "aceptacion/rechazo segun la CFG y el corpus etiquetado",
+  "advertencia": "spaCy realiza analisis lingüistico; el veredicto procede del criterio externo. Las diferencias no implican por si solas que la oracion sea gramaticalmente incorrecta."
+}

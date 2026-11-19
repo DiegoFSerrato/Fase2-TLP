@@ -1,0 +1,48 @@
+﻿id,nivel,oracion,metodo,esperado,obtenido,tipo_error
+ES001,1,La niña lee.,spaCy + criterio,aceptada,rechazada,FN
+ES003,1,Los perros corren.,LLM zero-shot,aceptada,rechazada,FN
+ES004,1,Las profesoras trabajan.,NLTK + criterio,aceptada,rechazada,FN
+ES009,1,Un gato duerme.,NLTK + criterio,aceptada,rechazada,FN
+ES010,1,Una maestra escucha.,spaCy + criterio,aceptada,rechazada,FN
+ES010,1,Una maestra escucha.,NLTK + criterio,aceptada,rechazada,FN
+ES010,1,Una maestra escucha.,LLM zero-shot,aceptada,rechazada,FN
+ES011,1,Unos alumnos saltan.,NLTK + criterio,aceptada,rechazada,FN
+ES013,1,La profesora trabaja.,NLTK + criterio,aceptada,rechazada,FN
+ES014,1,Los profesores leen.,NLTK + criterio,aceptada,rechazada,FN
+ES015,1,Las gatas duermen.,NLTK + criterio,aceptada,rechazada,FN
+ES018,2,Las niñas bonitas leen unos libros.,NLTK + criterio,aceptada,rechazada,FN
+ES020,2,La profesora canta alegremente.,spaCy + criterio,aceptada,rechazada,FN
+ES020,2,La profesora canta alegremente.,NLTK + criterio,aceptada,rechazada,FN
+ES022,2,Una maestra tranquila observa unas niñas pequeñas.,NLTK + criterio,aceptada,rechazada,FN
+ES022,2,Una maestra tranquila observa unas niñas pequeñas.,LLM zero-shot,aceptada,rechazada,FN
+ES023,2,Los alumnos nuevos leen unos libros rojos.,NLTK + criterio,aceptada,rechazada,FN
+ES026,2,Las profesoras cansadas trabajan en la escuela.,NLTK + criterio,aceptada,rechazada,FN
+ES027,2,La niña abre una puerta roja cuidadosamente.,LLM zero-shot,aceptada,rechazada,FN
+ES028,2,La niña bonita corren.,spaCy + criterio,rechazada,aceptada,FP
+ES028,2,La niña bonita corren.,NLTK + criterio,rechazada,aceptada,FP
+ES029,2,Los niños bonita leen.,spaCy + criterio,rechazada,aceptada,FP
+ES030,2,Las niñas leen un libros.,spaCy + criterio,rechazada,aceptada,FP
+ES031,3,El niño lee y la niña escribe.,spaCy + criterio,rechazada,aceptada,FP
+ES031,3,El niño lee y la niña escribe.,NLTK + criterio,rechazada,aceptada,FP
+ES032,3,"Cuando la niña lee, el niño escucha.",NLTK + criterio,rechazada,aceptada,FP
+ES033,3,La niña que lee un libro estudia.,NLTK + criterio,rechazada,aceptada,FP
+ES034,3,El niño corre porque la niña canta.,spaCy + criterio,rechazada,aceptada,FP
+ES034,3,El niño corre porque la niña canta.,NLTK + criterio,rechazada,aceptada,FP
+ES035,3,La niña lee en la escuela con la profesora.,spaCy + criterio,rechazada,aceptada,FP
+ES035,3,La niña lee en la escuela con la profesora.,NLTK + criterio,rechazada,aceptada,FP
+ES036,3,Ellos estudian rápidamente en la escuela.,spaCy + criterio,rechazada,aceptada,FP
+ES036,3,Ellos estudian rápidamente en la escuela.,NLTK + criterio,rechazada,aceptada,FP
+ES037,3,La niña lee un libro lentamente en la biblioteca.,spaCy + criterio,rechazada,aceptada,FP
+ES037,3,La niña lee un libro lentamente en la biblioteca.,NLTK + criterio,rechazada,aceptada,FP
+ES038,3,Los niños leen unos libros en el parque lentamente.,spaCy + criterio,rechazada,aceptada,FP
+ES040,3,La niña lee un libro y canta.,spaCy + criterio,rechazada,aceptada,FP
+ES040,3,La niña lee un libro y canta.,NLTK + criterio,rechazada,aceptada,FP
+ES041,3,La niña lee un libro bonito y nuevo.,spaCy + criterio,rechazada,aceptada,FP
+ES041,3,La niña lee un libro bonito y nuevo.,NLTK + criterio,rechazada,aceptada,FP
+ES042,3,Los niños que estudian leen.,NLTK + criterio,rechazada,aceptada,FP
+ES043,3,La niña lee el libro de la profesora.,LLM zero-shot,aceptada,rechazada,FN
+ES044,3,Ella lee libros.,spaCy + criterio,rechazada,aceptada,FP
+ES044,3,Ella lee libros.,NLTK + criterio,rechazada,aceptada,FP
+ES044,3,Ella lee libros.,LLM zero-shot,rechazada,aceptada,FP
+ES045,3,Él está leyendo un libro.,spaCy + criterio,rechazada,aceptada,FP
+ES045,3,Él está leyendo un libro.,NLTK + criterio,rechazada,aceptada,FP
